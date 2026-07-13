@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org)](https://doi.org)
 <img width="464" height="832" alt="image" src="https://github.com/user-attachments/assets/44c6a93e-4db2-47de-8ae6-bc17a0811f54" />
 # CHRONO-MIRROR: Horn Torus Topology and 5TH-Dimensional Temporal Detachment
 
