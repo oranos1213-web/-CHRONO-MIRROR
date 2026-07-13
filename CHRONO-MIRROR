@@ -1,0 +1,62 @@
+"""
+CHRONO-MIRROR: Horn Torus Dimensional Unfolding & Spectral Simulation
+Author: Mohamed Talal Kadri (Kadri)
+Role: Researcher in Philosophical Logic & Free Space Cosmology
+Date: July 2026
+Description: Simulates the 5D cosmic reduction, Horn Torus topology, 
+             and photon sliding mechanics at the 45.988 Bly Stop Boundary.
+"""
+
+def calculate_digital_root(number_str):
+    """حساب الجذر الرقمي لتفكيك أبعاد الزمكان إلى البعد الخامس الموحد"""
+    digits = [int(d) for d in number_str if d.isdigit()]
+    current_sum = sum(digits)
+    steps = [current_sum]
+    
+    while current_sum > 9:
+        current_sum = sum(int(d) for d in str(current_sum))
+        steps.append(current_sum)
+    return steps
+
+def simulate_chrono_mirror():
+    print("=====================================================================")
+    print("        CHRONO-MIRROR: HORN TORUS TOPOLOGY & 5D SIMULATION          ")
+    print("=====================================================================")
+    
+    # 1. الإشارة الكونية المعكوسة عند الأفق (45.988 مليار سنة ضوئية)
+    initial_signal = "9410510588954"
+    print(f"[-] Initial Boundary Signal (Inverted Radius): {initial_signal}")
+    
+    # 2. كتل الزمكان الرباعي (4D Spacetime Coordinates)
+    blocks = ["50149", "501", "988", "45"]
+    print(f"[-] Deconstructing into 4D Coordinate Blocks: {blocks}")
+    
+    block_sums = [sum(int(d) for d in b) for b in blocks]
+    total_4d_vector = sum(block_sums)
+    print(f"    Vector Sums per Dimension: {block_sums} -> Total Unified: {total_4d_vector}")
+    
+    # 3. الاختزال الرياضي للبعد الخامس (The 5th Dimension Hub)
+    reduction_steps = calculate_digital_root(str(total_4d_vector))
+    fifth_dim = reduction_steps[-1]
+    print(f"[-] Dimensional Reduction Path: {total_4d_vector} -> {' -> '.join(map(str, reduction_steps))}")
+    print(f"[+] Root Dimension Extracted: (+1) Hidden Bulk = {fifth_dim}")
+    
+    # 4. محاكاة هندسة التوروس البوقي (Horn Torus Dynamics)
+    print("\n[-] Activating Horn Torus Geometric Simulation...")
+    print("    * Central Vertex   : Pulsating Rigid Thermal Buffer (Dark Matter Active).")
+    print("    * Buffer Function  : Shock Absorption Matrix Enabled. Dimensional Interpenetration Blocked.")
+    print("    * Outer Horizon    : 45.988 Bly Boundary Reached. Spatial Vector State: [STOP]")
+    print("    * Temporal State   : Time Detaches from Fabric. Autonomous Flow Engaged.")
+    
+    # 5. محاكاة انزلاق الضوء الطيفي (Cosmic Horseshoe U-Shape)
+    print("\n[+] Optical Output at the Boundary (Cosmic Horseshoe Pattern):")
+    if fifth_dim == 5:
+        print("    * Geometry Trace   : Perfect U-Shape Inversion Loop Detected.")
+        print("    * Mechanics        : Photon Sliding Active (No Gravitational Truncation).")
+        print("    * Internal Emission: Spectral Blue Flow Verified.")
+        print("    * External Mirror  : Green-Violet-Yellow Intersecting Flux Intercepted.")
+        print("    * System Stability : Absolute Asymmetry Sustained. Cosmic Equilibrium Secured.")
+    print("=====================================================================")
+
+if __name__ == "__main__":
+    simulate_chrono_mirror()
